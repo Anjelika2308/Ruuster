@@ -1,0 +1,22 @@
+{
+  "name": "ruusteractual",
+  "version": "1.0.0",
+  "description": "auto tests ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "./node_modules/.bin/cypress open"
+  },
+  "keywords": [
+    "Ruuster"
+  ],
+  "author": "Anzhelika",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.1.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "twilio": "^3.66.1"
+  }
+}
